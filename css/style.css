@@ -4,16 +4,24 @@
     box-sizing: border-box;
 }
 .nav {
-    background-color: black;
+    background-color: rgb(241, 238, 238);
     width: 100%;
     background-size: cover;
     
 }
 .jay {
     background-image: url("../img//j2.jpg");
+    opacity: 40%;
     width: 100%;
     height: 100vh;
     background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-center{
+    margin-top: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: maroon;
 }
 .row {
     display: block;
@@ -29,4 +37,28 @@
 }
 #about {
     display: flex;
+    
+}
+.bg-light {
+    margin-top: -50px;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+
+
+}
+#skills {
+    background-color: gray;
+    border: 10px;
+    border-radius: 15px;
+
+}
+.Project {
+    background-color: brown;
+}
+#hobbies {
+    background-color: aquamarine;
 }
