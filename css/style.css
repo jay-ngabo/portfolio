@@ -37,6 +37,7 @@
 #img {
     
     float: left;
+    border-style: none;
 }
 #text {
     float: right;
@@ -54,16 +55,21 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 0px;
-    
-
-
 
 }
+
 #skills {
     background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
     border: 10px;
     border-radius: 15px;
     color: rgb(29, 245, 29);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 70px;
+    border-style: double;
+    border-color: white;
+    float: right;
+    
 
 }
 .Project {
@@ -72,6 +78,9 @@
     color: rgb(38, 236, 38);
     border-radius: 20px;
     border: 10px;
+    margin-top: 50px;
+    border-style: double;
+    border-color: white;
     
 }
 #hobbies {
@@ -81,6 +90,10 @@
     border: 10px;
     border-radius: 15px;
     width: 170px;
+    margin-top: 50px;
+    margin-right: 30px;
+    border-color: white;
+    border-style: double;
 }
 .background {
     background-color: black;
@@ -96,8 +109,15 @@
     border: 0px;
 }
 #highlight {
-    color: greenyellow;
+    color: rgb(73, 209, 10);
 }
-#cont {
+#class {
     background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
+}
+.image {
+    float: right;
+}
+.H3 {
+    color: white;
+    text-align: center;
 }
