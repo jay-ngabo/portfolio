@@ -4,24 +4,25 @@
     box-sizing: border-box;
 }
 .nav {
-    background-color: rgb(241, 238, 238);
+    background-image: url("../img/dark.jpg");
     width: 100%;
     background-size: cover;
     
 }
 .jay {
-    background-image: url("../img//j2.jpg");
-    opacity: 40%;
+    background-image: url("../img//dark.jpg");
+    
     width: 100%;
     height: 100vh;
     background-size: cover;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: <link rel="preconnect" href="https://fonts.googleapis.com">;
+    
 }
 .text-center{
     margin-top: 50px;
     font-weight: bold;
-    font-style: italic;
-    color: maroon;
+    
+    color: rgb(33, 204, 33);
 }
 .row {
     display: block;
@@ -41,6 +42,7 @@
 }
 .bg-light {
     margin-top: -50px;
+    
 }
 .container {
     display: flex;
@@ -51,14 +53,33 @@
 
 }
 #skills {
-    background-color: gray;
+    background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
     border: 10px;
     border-radius: 15px;
+    color: rgb(29, 245, 29);
 
 }
 .Project {
-    background-color: brown;
+    background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(38, 236, 38);
+    border-radius: 20px;
+    border: 10px;
+    
 }
 #hobbies {
-    background-color: aquamarine;
+    background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(44, 240, 44);
+    border: 10px;
+    border-radius: 15px;
+    width: 170px;
+}
+.background {
+    background-color: black;
+}
+.img {
+    border: 10px;
+    border-radius: 15px;
+    float: right;
 }
