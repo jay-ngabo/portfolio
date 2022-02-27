@@ -54,6 +54,11 @@
     display: flex;
     
 }
+#trust {
+
+    color: greenyellow;
+
+}
 .bg-light {
     margin-top: -50px;
     
@@ -62,6 +67,7 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 0px;
+    background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
 
 }
 
@@ -82,7 +88,7 @@
 .Project {
     background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(38, 236, 38);
+    color: white;
     border-radius: 20px;
     border: 10px;
     margin-top: 50px;
@@ -101,6 +107,7 @@
     margin-right: 30px;
     border-color: white;
     border-style: double;
+    
 }
 .background {
     background-color: black;
@@ -126,5 +133,12 @@
 }
 .H3 {
     color: white;
+    text-align: center;
+}
+#part3 {
+    background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
+}
+#proj {
+    color: greenyellow;
     text-align: center;
 }
