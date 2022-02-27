@@ -52,6 +52,7 @@
 }
 #about {
     display: flex;
+    margin-top: 0px;
     
 }
 #trust {
@@ -136,9 +137,24 @@
     text-align: center;
 }
 #part3 {
-    background-image: url(../img/271d18e5bb3f1eb2b687cc52a2bee291.jpg);
+    
 }
 #proj {
     color: greenyellow;
     text-align: center;
+    margin: 580px;
+    font-weight: bold;
+}
+#cont {
+    color: greenyellow;
+    text-align: center;
+    
+}
+.contacts {
+    border-style: double;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    bor
+
 }
