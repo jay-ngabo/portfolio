@@ -151,7 +151,7 @@
     
 }
 .contacts {
-    border-style: double;
+    border-style: none;
     color: white;
     text-align: center;
     margin-top: 50px;
